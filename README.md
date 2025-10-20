@@ -49,6 +49,43 @@ While the script is interactive, you can easily customize its core behavior by e
 *   `IMAGE_EXTENSIONS`: Add or remove image file extensions from this list.
 *   `VIDEO_EXTENSIONS`: Add or remove video file extensions from this list.
 
+___
+
+# Delete Empty Folders
+
+An interactive python script that deletes empty folder in a given directory.
+
+This script will:
+1. Ask for a folder to clean.
+2. Walk through every single subfolder within it.
+3. Check if a folder is empty.
+4. If and only if it is empty, it will delete it.
+5. It works from the inside out, so it can delete nested empty folders (e.g., A/B/C where all three are empty).
+
+It's very safe and, as is our tradition, will ask you for confirmation before it touches anything.
+
+## 🚀 How to Use
+
+1.  Save the script as a Python file (e.g., `delete_empty_folders.py`).
+2.  Open a terminal or PowerShell in the directory where you saved the script.
+3.  Run the script by typing:
+    ```
+    delete_empty_folders.py
+    ```
+___
+# Sort
+
+A quick sorting batch file. 
+
+This will sort all images in a _image_ folder and all video files in a _video_ folder.
+
+## 🚀 How to Use
+
+Put the sort.bat file **in the folder you want to sort** and double click on it.
+
+### ⚠️ WARNING: This batch file will **not ask for confirmation**
+___
+
 ## ⚠️ A Word of Caution
 
 While this script is designed to be much safer than its predecessor, it is a powerful tool that **MOVES** files (not copies them). A "move" operation is a "copy" followed by a "delete".
