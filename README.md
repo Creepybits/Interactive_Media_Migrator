@@ -4,6 +4,14 @@ An interactive Python script designed to help reclaim disk space by safely movin
 
 This is a significantly safer and more user-friendly evolution of the original drive-scanning `image_migrator.py` script.
 
+---  
+
+# Media Migrator - Windows  
+> Looking for the easy way?
+> Use the button below to get the standalone Windows version.
+
+[![Download Windows EXE](https://img.shields.io/badge/Download-Media_Migrator_v1.0.0-green?style=for-the-badge&logo=windows)](https://github.com/Creepybits/Interactive_Media_Migrator/releases/tag/v1.0.0)
+
 ---
 
 ## ✨ Key Features
